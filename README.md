@@ -30,3 +30,6 @@ o	门状态（“<-- -->”表示开门，“--> <--”表示关门）。
 用户点击 ▲ / ▼ → floor_requests 添加请求 → 调度线程分配 → 对应电梯响应  
 调度策略核心逻辑  
 该电梯调度系统程序使用的是一种基于方向与距离优先的贪心调度算法，它的主要目的是将楼层请求（上下行）合理分配给当前最适合的电梯，从而实现响应速度快、减少电梯空跑的目标，调度核心定义在DispatcherThread类中。  
+![演示1-正常·](https://github.com/user-attachments/assets/8f5a2c5b-9c96-483c-a32d-d9f75590e3ca)  
+![演示2-报警](https://github.com/user-attachments/assets/f9097977-1e23-4f55-bd45-36326e723ed8)  
+
